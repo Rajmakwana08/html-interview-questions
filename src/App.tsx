@@ -409,7 +409,7 @@ Mobile Support	Not mobile-friendly	        Designed for mobile and responsive`
 
   return (
     <div className="app-container">
-      <h1>React.js Interview Questions</h1>
+      <h1>HTML Interview Questions</h1>
       <div className="questions-container">
         {questions.map((q) => (
           <div key={q.id} className="question-item">
