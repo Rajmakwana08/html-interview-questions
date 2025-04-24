@@ -268,4 +268,26 @@ Multimedia	Needs plugins like Flash	Supports <audio>, <video>
 New Tags	No semantic tags	        Has tags like <header>, <footer>
 Storage	        No local storage	        Has localStorage, sessionStorage
 Form Features	Basic input types	        New input types like email, date
-Mobile Support	Not mobile-friendly	        Designed for mobile and responsive`}],ye=R=>{W(M===R?null:R)};return Ne.jsxs("div",{className:"app-container",children:[Ne.jsx("h1",{children:"HTML Interview Questions"}),Ne.jsx("div",{className:"questions-container",children:m.map(R=>Ne.jsxs("div",{className:"question-item",children:[Ne.jsx("button",{className:`question-button ${M===R.id?"active":""}`,onClick:()=>ye(R.id),children:R.question}),M===R.id&&Ne.jsxs("div",{className:"answer-container",children:[Ne.jsxs("div",{className:"answer",children:[Ne.jsx("h3",{children:"Answer:"}),Ne.jsx("p",{children:R.answer})]}),R.codeExample&&Ne.jsxs("div",{className:"code-example",children:[Ne.jsx("h3",{children:"Code Example:"}),Ne.jsx("pre",{children:Ne.jsx("code",{children:R.codeExample})})]})]})]},R.id))})]})}Hf.createRoot(document.getElementById("root")).render(Ne.jsx(Ra.StrictMode,{children:Ne.jsx(Uf,{})}));
+Mobile Support	Not mobile-friendly	        Designed for mobile and responsive`},{id:32,question:"32. what is used <section> and <main> tag in html",answer:`Tag             |            Purpose                         |   Can repeat? 
+<main>      | Main content of the page        |   ❌ No 
+<section>  | Groups related content areas |   ✅ Yes 
+
+<main> -> Used for the central content (not header, footer, sidebar).`,codeExample:`<section>
+  <h2>About Travel</h2>
+  <p>We help you plan your trips with ease.</p>
+</section>
+
+<section>
+  <h2>Popular Destinations</h2>
+  <ul>
+    <li>Paris</li>
+    <li>New York</li>
+    <li>Tokyo</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Contact Us</h2>
+  <p>Email: travel@example.com</p>
+</section>
+`}],ye=R=>{W(M===R?null:R)};return Ne.jsxs("div",{className:"app-container",children:[Ne.jsx("h1",{children:"HTML Interview Questions"}),Ne.jsx("div",{className:"questions-container",children:m.map(R=>Ne.jsxs("div",{className:"question-item",children:[Ne.jsx("button",{className:`question-button ${M===R.id?"active":""}`,onClick:()=>ye(R.id),children:R.question}),M===R.id&&Ne.jsxs("div",{className:"answer-container",children:[Ne.jsxs("div",{className:"answer",children:[Ne.jsx("h3",{children:"Answer:"}),Ne.jsx("p",{children:R.answer})]}),R.codeExample&&Ne.jsxs("div",{className:"code-example",children:[Ne.jsx("h3",{children:"Code Example:"}),Ne.jsx("pre",{children:Ne.jsx("code",{children:R.codeExample})})]})]})]},R.id))})]})}Hf.createRoot(document.getElementById("root")).render(Ne.jsx(Ra.StrictMode,{children:Ne.jsx(Uf,{})}));
