@@ -401,6 +401,30 @@ Storage	        No local storage	        Has localStorage, sessionStorage
 Form Features	Basic input types	        New input types like email, date
 Mobile Support	Not mobile-friendly	        Designed for mobile and responsive`
     },
+    {
+      id: 32,
+      question: "32. what is used <section> and <main> tag in html",
+      answer: "Tag             |            Purpose                         |   Can repeat? \n<main>      | Main content of the page        |   ❌ No \n<section>  | Groups related content areas |   ✅ Yes \n\n<main> -> Used for the central content (not header, footer, sidebar).",
+      codeExample: `<section>
+  <h2>About Travel</h2>
+  <p>We help you plan your trips with ease.</p>
+</section>
+
+<section>
+  <h2>Popular Destinations</h2>
+  <ul>
+    <li>Paris</li>
+    <li>New York</li>
+    <li>Tokyo</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Contact Us</h2>
+  <p>Email: travel@example.com</p>
+</section>
+`
+    },
   ];
 
   const toggleQuestion = (id: number) => {
